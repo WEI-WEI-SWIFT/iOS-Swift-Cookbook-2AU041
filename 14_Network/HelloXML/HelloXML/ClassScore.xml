@@ -1,0 +1,12 @@
+<class>
+	<student>
+		<name>Thomas</name>
+		<english>90</english>
+		<chinese>80</chinese>
+	</student>
+	<student>
+		<name>Sunny</name>
+		<english>70</english>
+		<chinese>60</chinese>
+	</student>
+</class>

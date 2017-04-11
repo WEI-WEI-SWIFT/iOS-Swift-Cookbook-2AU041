@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloHeading" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Backgeround" translatesAutoresizingMaskIntoConstraints="NO" id="hw3-1G-w6U">
+                                <rect key="frame" x="155" y="155" width="290" height="290"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="290" id="fUn-Ce-ilj"/>
+                                    <constraint firstAttribute="width" constant="290" id="olz-bK-ALL"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Compass" translatesAutoresizingMaskIntoConstraints="NO" id="pqO-AO-hMy">
+                                <rect key="frame" x="287" y="209" width="26" height="182"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="26" id="k7x-ud-R45"/>
+                                    <constraint firstAttribute="height" constant="182" id="r7W-KH-6CQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hw3-1G-w6U" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WTU-Un-CkT"/>
+                            <constraint firstItem="pqO-AO-hMy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dzr-G6-3CM"/>
+                            <constraint firstItem="hw3-1G-w6U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g8t-IR-C05"/>
+                            <constraint firstItem="pqO-AO-hMy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vYA-QL-46H"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="indicator" destination="pqO-AO-hMy" id="YAA-3f-r8j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Backgeround" width="305" height="290"/>
+        <image name="Compass" width="26" height="182"/>
+    </resources>
+</document>

@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4A877F1B74A58C000A0BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A877E1B74A58C000A0BCC /* AppDelegate.swift */; };
+		0A4A87811B74A58C000A0BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A87801B74A58C000A0BCC /* ViewController.swift */; };
+		0A4A87841B74A58C000A0BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4A87821B74A58C000A0BCC /* Main.storyboard */; };
+		0A4A87861B74A58C000A0BCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4A87851B74A58C000A0BCC /* Images.xcassets */; };
+		0A4A87891B74A58C000A0BCC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4A87871B74A58C000A0BCC /* LaunchScreen.xib */; };
+		0A4A87951B74A58C000A0BCC /* HelloPlayVideoClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A87941B74A58C000A0BCC /* HelloPlayVideoClipTests.swift */; };
+		0A4A879F1B74A5AC000A0BCC /* HipHop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0A4A879E1B74A5AC000A0BCC /* HipHop.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A4A878F1B74A58C000A0BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A4A87711B74A58B000A0BCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4A87781B74A58B000A0BCC;
+			remoteInfo = HelloPlayVideoClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4A87791B74A58B000A0BCC /* HelloPlayVideoClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPlayVideoClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4A877D1B74A58C000A0BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4A877E1B74A58C000A0BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A4A87801B74A58C000A0BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A4A87831B74A58C000A0BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A4A87851B74A58C000A0BCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A4A87881B74A58C000A0BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0A4A878E1B74A58C000A0BCC /* HelloPlayVideoClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPlayVideoClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4A87931B74A58C000A0BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4A87941B74A58C000A0BCC /* HelloPlayVideoClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPlayVideoClipTests.swift; sourceTree = "<group>"; };
+		0A4A879E1B74A5AC000A0BCC /* HipHop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HipHop.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4A87761B74A58B000A0BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4A878B1B74A58C000A0BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4A87701B74A58B000A0BCC = {
+			isa = PBXGroup;
+			children = (
+				0A4A877B1B74A58B000A0BCC /* HelloPlayVideoClip */,
+				0A4A87911B74A58C000A0BCC /* HelloPlayVideoClipTests */,
+				0A4A877A1B74A58B000A0BCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A4A877A1B74A58B000A0BCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A4A87791B74A58B000A0BCC /* HelloPlayVideoClip.app */,
+				0A4A878E1B74A58C000A0BCC /* HelloPlayVideoClipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A4A877B1B74A58B000A0BCC /* HelloPlayVideoClip */ = {
+			isa = PBXGroup;
+			children = (
+				0A4A877E1B74A58C000A0BCC /* AppDelegate.swift */,
+				0A4A87801B74A58C000A0BCC /* ViewController.swift */,
+				0A4A87821B74A58C000A0BCC /* Main.storyboard */,
+				0A4A87851B74A58C000A0BCC /* Images.xcassets */,
+				0A4A87871B74A58C000A0BCC /* LaunchScreen.xib */,
+				0A4A877C1B74A58C000A0BCC /* Supporting Files */,
+			);
+			path = HelloPlayVideoClip;
+			sourceTree = "<group>";
+		};
+		0A4A877C1B74A58C000A0BCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A4A879E1B74A5AC000A0BCC /* HipHop.mp4 */,
+				0A4A877D1B74A58C000A0BCC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A4A87911B74A58C000A0BCC /* HelloPlayVideoClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A4A87941B74A58C000A0BCC /* HelloPlayVideoClipTests.swift */,
+				0A4A87921B74A58C000A0BCC /* Supporting Files */,
+			);
+			path = HelloPlayVideoClipTests;
+			sourceTree = "<group>";
+		};
+		0A4A87921B74A58C000A0BCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A4A87931B74A58C000A0BCC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A4A87781B74A58B000A0BCC /* HelloPlayVideoClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4A87981B74A58C000A0BCC /* Build configuration list for PBXNativeTarget "HelloPlayVideoClip" */;
+			buildPhases = (
+				0A4A87751B74A58B000A0BCC /* Sources */,
+				0A4A87761B74A58B000A0BCC /* Frameworks */,
+				0A4A87771B74A58B000A0BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloPlayVideoClip;
+			productName = HelloPlayVideoClip;
+			productReference = 0A4A87791B74A58B000A0BCC /* HelloPlayVideoClip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A4A878D1B74A58C000A0BCC /* HelloPlayVideoClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4A879B1B74A58C000A0BCC /* Build configuration list for PBXNativeTarget "HelloPlayVideoClipTests" */;
+			buildPhases = (
+				0A4A878A1B74A58C000A0BCC /* Sources */,
+				0A4A878B1B74A58C000A0BCC /* Frameworks */,
+				0A4A878C1B74A58C000A0BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4A87901B74A58C000A0BCC /* PBXTargetDependency */,
+			);
+			name = HelloPlayVideoClipTests;
+			productName = HelloPlayVideoClipTests;
+			productReference = 0A4A878E1B74A58C000A0BCC /* HelloPlayVideoClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A4A87711B74A58B000A0BCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = appsgaga;
+				TargetAttributes = {
+					0A4A87781B74A58B000A0BCC = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0820;
+					};
+					0A4A878D1B74A58C000A0BCC = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0820;
+						TestTargetID = 0A4A87781B74A58B000A0BCC;
+					};
+				};
+			};
+			buildConfigurationList = 0A4A87741B74A58B000A0BCC /* Build configuration list for PBXProject "HelloPlayVideoClip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A4A87701B74A58B000A0BCC;
+			productRefGroup = 0A4A877A1B74A58B000A0BCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A4A87781B74A58B000A0BCC /* HelloPlayVideoClip */,
+				0A4A878D1B74A58C000A0BCC /* HelloPlayVideoClipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A4A87771B74A58B000A0BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4A87841B74A58C000A0BCC /* Main.storyboard in Resources */,
+				0A4A879F1B74A5AC000A0BCC /* HipHop.mp4 in Resources */,
+				0A4A87891B74A58C000A0BCC /* LaunchScreen.xib in Resources */,
+				0A4A87861B74A58C000A0BCC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4A878C1B74A58C000A0BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4A87751B74A58B000A0BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4A87811B74A58C000A0BCC /* ViewController.swift in Sources */,
+				0A4A877F1B74A58C000A0BCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4A878A1B74A58C000A0BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4A87951B74A58C000A0BCC /* HelloPlayVideoClipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A4A87901B74A58C000A0BCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A4A87781B74A58B000A0BCC /* HelloPlayVideoClip */;
+			targetProxy = 0A4A878F1B74A58C000A0BCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A4A87821B74A58C000A0BCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4A87831B74A58C000A0BCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A4A87871B74A58C000A0BCC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4A87881B74A58C000A0BCC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A4A87961B74A58C000A0BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A4A87971B74A58C000A0BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A4A87991B74A58C000A0BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloPlayVideoClip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apppsgaga.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0A4A879A1B74A58C000A0BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloPlayVideoClip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apppsgaga.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0A4A879C1B74A58C000A0BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloPlayVideoClipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apppsgaga.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloPlayVideoClip.app/HelloPlayVideoClip";
+			};
+			name = Debug;
+		};
+		0A4A879D1B74A58C000A0BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloPlayVideoClipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apppsgaga.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloPlayVideoClip.app/HelloPlayVideoClip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4A87741B74A58B000A0BCC /* Build configuration list for PBXProject "HelloPlayVideoClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4A87961B74A58C000A0BCC /* Debug */,
+				0A4A87971B74A58C000A0BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4A87981B74A58C000A0BCC /* Build configuration list for PBXNativeTarget "HelloPlayVideoClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4A87991B74A58C000A0BCC /* Debug */,
+				0A4A879A1B74A58C000A0BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4A879B1B74A58C000A0BCC /* Build configuration list for PBXNativeTarget "HelloPlayVideoClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4A879C1B74A58C000A0BCC /* Debug */,
+				0A4A879D1B74A58C000A0BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A4A87711B74A58B000A0BCC /* Project object */;
+}

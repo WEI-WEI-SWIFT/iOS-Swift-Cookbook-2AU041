@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloAddTextToImage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W8t-IG-359">
+                                <rect key="frame" x="37.5" y="78" width="300" height="300"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bkH-qE-1J4">
+                                        <rect key="frame" x="137" y="135" width="25" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="addNewText:" destination="BYZ-38-t0r" eventType="editingChanged" id="KeW-HD-Fpd"/>
+                                        </connections>
+                                    </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MyCat" translatesAutoresizingMaskIntoConstraints="NO" id="Lzv-jm-hko">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgo-cW-ZGK" userLabel="MyLabel">
+                                        <rect key="frame" x="0.0" y="234.5" width="300" height="39"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="BZe-3B-A7l"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="hgo-cW-ZGK" firstAttribute="width" secondItem="Lzv-jm-hko" secondAttribute="width" id="309-2O-PlU"/>
+                                    <constraint firstAttribute="bottom" secondItem="hgo-cW-ZGK" secondAttribute="bottom" constant="26.5" id="AX6-fR-fIe"/>
+                                    <constraint firstItem="Lzv-jm-hko" firstAttribute="centerX" secondItem="W8t-IG-359" secondAttribute="centerX" id="AtZ-eu-itD"/>
+                                    <constraint firstItem="Lzv-jm-hko" firstAttribute="centerY" secondItem="W8t-IG-359" secondAttribute="centerY" id="Cmc-hl-2lX"/>
+                                    <constraint firstAttribute="width" constant="300" id="J3f-Qm-TLh"/>
+                                    <constraint firstItem="bkH-qE-1J4" firstAttribute="centerY" secondItem="W8t-IG-359" secondAttribute="centerY" id="Km2-RT-ygb"/>
+                                    <constraint firstItem="bkH-qE-1J4" firstAttribute="centerX" secondItem="W8t-IG-359" secondAttribute="centerX" id="nmN-tF-SkM"/>
+                                    <constraint firstItem="hgo-cW-ZGK" firstAttribute="centerX" secondItem="W8t-IG-359" secondAttribute="centerX" id="sDJ-dB-IKE"/>
+                                    <constraint firstItem="Lzv-jm-hko" firstAttribute="width" secondItem="W8t-IG-359" secondAttribute="width" id="tep-NJ-IXr"/>
+                                    <constraint firstAttribute="height" constant="300" id="uvX-dQ-yAk"/>
+                                    <constraint firstItem="Lzv-jm-hko" firstAttribute="height" secondItem="W8t-IG-359" secondAttribute="height" id="yK0-Xm-iMO"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLy-Nj-rPx">
+                                <rect key="frame" x="148" y="388" width="79" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="4ru-jh-JEO"/>
+                                    <constraint firstAttribute="height" constant="30" id="D4Q-Ia-ys2"/>
+                                </constraints>
+                                <state key="normal" title="Save Image"/>
+                                <connections>
+                                    <action selector="saveImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lHk-IW-ffm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="W8t-IG-359" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3U9-4g-jf5"/>
+                            <constraint firstItem="W8t-IG-359" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="58" id="FRd-xT-RS0"/>
+                            <constraint firstItem="vLy-Nj-rPx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GbH-Ce-m8b"/>
+                            <constraint firstItem="vLy-Nj-rPx" firstAttribute="top" secondItem="W8t-IG-359" secondAttribute="bottom" constant="10" id="xnD-mM-b4G"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addThisText" destination="hgo-cW-ZGK" id="dOf-2z-n7y"/>
+                        <outlet property="container" destination="W8t-IG-359" id="Jbp-fr-RN7"/>
+                        <outlet property="myTextField" destination="bkH-qE-1J4" id="8aM-la-yJg"/>
+                        <outlet property="originalImage" destination="Lzv-jm-hko" id="bwe-t1-ZJe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MyCat" width="640" height="640"/>
+    </resources>
+</document>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloUIScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sM-zH-VMe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="680"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MyCat" translatesAutoresizingMaskIntoConstraints="NO" id="KEJ-Ba-b5U">
+                                        <rect key="frame" x="0.0" y="0.0" width="1080" height="1080"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1080" id="It3-xl-q8t"/>
+                                            <constraint firstAttribute="height" constant="1080" id="ZlH-Bt-A5r"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="KEJ-Ba-b5U" firstAttribute="top" secondItem="7sM-zH-VMe" secondAttribute="top" id="M2g-eE-CTB"/>
+                                    <constraint firstItem="KEJ-Ba-b5U" firstAttribute="leading" secondItem="7sM-zH-VMe" secondAttribute="leading" id="QW9-a9-gsF"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="2E0-WE-wQw"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="7sM-zH-VMe" secondAttribute="bottom" id="2Tr-rO-uyy"/>
+                            <constraint firstItem="7sM-zH-VMe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="CQT-f4-Ghj"/>
+                            <constraint firstAttribute="trailing" secondItem="7sM-zH-VMe" secondAttribute="trailing" id="XtV-xw-6ig"/>
+                            <constraint firstItem="7sM-zH-VMe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vOC-zI-9ES"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myImageView" destination="KEJ-Ba-b5U" id="2Re-JJ-drJ"/>
+                        <outlet property="myScrollView" destination="7sM-zH-VMe" id="7n7-2O-2Oa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="428.63568215892059"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MyCat" width="1080" height="1080"/>
+    </resources>
+</document>
